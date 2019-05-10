@@ -2,38 +2,280 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Барбершоп - Средства для ухода</title>
   </head>
   <body>
 
-<!-- HEADER -->
+	<!-- HEADER -->
 
-	<header class="main-header">
-		 <nav class="main-nav">
-			<img class="logo" src="img/index-logo.svg" width="200" height="200" alt="Лого Барбершопа Бородинский">
-			<ul class="site-navigation">
-				<li>Информация</li>
-				<li>Новости</li>
-				<li>Прайс-лист</li>
-				<li>Магазин</li>
-				<li>Контакты</li>
+		<header class="main-header">
+
+		<!-- БЛОК НАВИГАЦИИ -->
+
+			 <nav class="main-nav">
+
+			<!-- ЛОГО -->
+
+				<a class="header-logo" href="index.html"><img src="img/index-logo.svg" width="100" height="20" alt="Лого Барбершопа Бородинский"></a>
+
+			<!-- НАВИГАЦИЯ -->
+
+				<ul class="nav">
+					<li><a href="info.html">Информация</a></li>
+					<li><a href="news.html">Новости</a></li>
+					<li><a href="price.html">Прайс-лист</a></li>
+					<li class="nav-current"><a href="shop.html">Магазин</a></li>
+					<li><a href="contacts.html">Контакты</a></li>
+				</ul>
+
+			<!-- КНОПКИ ПОЛЬЗОВАТЕЛЯ -->
+
+				<ul class="nav-btn-users">
+					<li class="login-link"><a href="login.html">Вход</a></li>
+				</ul>
+		 	</nav>
+		</header>
+
+	<!-- MAIN -->
+
+		<!-- ЗАГОЛОВОК КАТАЛОГА -->
+
+			<main class="container">
+				<h1 class="title">Средства для ухода</h1>
+
+		<!-- ХЛЕБНЫЕ КРОШКИ -->
+
+				<ul class="breadcrumbs">
+					<li><a href="index.html">Главная</a></li>
+					<li><a href="shop.html">Магазин</a></li>
+					<li сlass="breadcrumb-current">Средства для ухода</li>
+				</ul>
+
+		<!-- БЛОК С ФИЛЬТРАМИ -->
+
+			<section class="filters">
+				<h2 class="visually-hidden">Фильтр товаров</h2>
+					<h3>Производители</h3>
+					 <!-- Здесь будет форма с фильтром товаров -->
+					 <h3>Группы товаров</h3>
+					 <!-- Здесь будет форма с фильтром товаров -->
+					 <span class="button button-filter">Показать</span>
+			</section>
+
+		<!-- КАТАЛОГ С ТОВАРАМИ -->
+
+			<section class="catalog">
+				<h2 class="visually-hidden">Список товаров по уходу</h2>
+				<ul class="list-products">
+
+			<!-- ТОВАР -->	
+
+				<li class="catalog-product">
+
+				<!-- ЗАГОЛОВОК ТОВАРА -->	
+						<h3>
+							<a href="product-1.html">
+								<span class="category-product">Набор для путешествий</span>
+								<span class="title-product">«Baxter of California»</span>
+							</a>
+						</h3>
+
+				<!-- КАРТИНКА ТОВАРА -->
+						<p class="catalog-product-image">
+							<a href="product-1.html">
+								<img src="img/product-1.jpg" width="100" height="100" alt="Набор для путешествий Baxter of California">
+							</a>
+						</p>
+
+				<!-- ЦЕНА И КНОПКА КУПИТЬ -->
+						<p class="catalog-product-price">
+							<b>2990</b>
+							<a class="button" href="#">Купить</a>
+						</p>
+					</li>
+
+			<!-- ТОВАР -->	
+
+				<li class="catalog-product">
+
+				<!-- ЗАГОЛОВОК ТОВАРА -->	
+						<h3>
+							<a href="product-2.html">
+								<span class="category-product">Увлажняющий кондиционер</span>
+								<span class="title-product">«Baxter of California»</span>
+							</a>
+						</h3>
+
+				<!-- КАРТИНКА ТОВАРА -->
+						<p class="catalog-product-image">
+							<a href="product-2.html">
+								<img src="img/product-2.jpg" width="100" height="100" alt="Кондиционер Baxter of California">
+							</a>
+						</p>
+
+				<!-- ЦЕНА И КНОПКА КУПИТЬ -->
+						<p class="catalog-product-price">
+							<b>750</b>
+							<a class="button" href="#">Купить</a>
+						</p>
+					</li>
+
+			<!-- ТОВАР -->	
+
+				<li class="catalog-product">
+
+				<!-- ЗАГОЛОВОК ТОВАРА -->	
+						<h3>
+							<a href="product-3.html">
+								<span class="category-product">Гель для волос</span>
+								<span class="title-product">«Suavecito»</span>
+							</a>
+						</h3>
+
+				<!-- КАРТИНКА ТОВАРА -->
+						<p class="catalog-product-image">
+							<a href="product-3.html">
+								<img src="img/product-3.jpg" width="100" height="100" alt="Гель Baxter of California">
+							</a>
+						</p>
+
+				<!-- ЦЕНА И КНОПКА КУПИТЬ -->
+						<p class="catalog-product-price">
+							<b>290</b>
+							<a class="button" href="#">Купить</a>
+						</p>
+					</li>
+
+			<!-- ТОВАР -->	
+
+				<li class="catalog-product">
+
+				<!-- ЗАГОЛОВОК ТОВАРА -->	
+						<h3>
+							<a href="product-4.html">
+								<span class="category-product">Глина для укладки волос</span>
+								<span class="title-product">«American Crew»</span>
+							</a>
+						</h3>
+
+				<!-- КАРТИНКА ТОВАРА -->
+						<p class="catalog-product-image">
+							<a href="product-4.html">
+								<img src="img/product-4.jpg" width="100" height="100" alt="Глина American Crew">
+							</a>
+						</p>
+
+				<!-- ЦЕНА И КНОПКА КУПИТЬ -->
+						<p class="catalog-product-price">
+							<b>500</b>
+							<a class="button" href="#">Купить</a>
+						</p>
+					</li>
+
+			<!-- ТОВАР -->	
+					
+				<li class="catalog-product">
+
+				<!-- ЗАГОЛОВОК ТОВАРА -->	
+						<h3>
+							<a href="product-5.html">
+								<span class="category-product">Гель для волос</span>
+								<span class="title-product">«American Crew»</span>
+							</a>
+						</h3>
+
+				<!-- КАРТИНКА ТОВАРА -->
+						<p class="catalog-product-image">
+							<a href="product-5.html">
+								<img src="img/product-5.jpg" width="100" height="100" alt="Гель American Crew">
+							</a>
+						</p>
+
+				<!-- ЦЕНА И КНОПКА КУПИТЬ -->
+						<p class="catalog-product-price">
+							<b>300</b>
+							<a class="button" href="#">Купить</a>
+						</p>
+					</li>
+
+			<!-- ТОВАР -->	
+					
+				<li class="catalog-product">
+
+				<!-- ЗАГОЛОВОК ТОВАРА -->	
+						<h3>
+							<a href="product-6.html">
+								<span class="category-product">Набор для бритья</span>
+								<span class="title-product">«Baxter of California»</span>
+							</a>
+						</h3>
+
+				<!-- КАРТИНКА ТОВАРА -->
+						<p class="catalog-product-image">
+							<a href="product-6.html">
+								<img src="img/product-6.jpg" width="100" height="100" alt="Набор для бритья Baxter of California">
+							</a>
+						</p>
+
+				<!-- ЦЕНА И КНОПКА КУПИТЬ -->
+						<p class="catalog-product-price">
+							<b>3900</b>
+							<a class="button button-buy" href="#">Купить</a>
+						</p>
+					</li>
+				</ul>
+
+		<!-- ПАГИНАЦИЯ В КАТАЛОГЕ -->
+
+			<ul class="list-pag">
+				<li class="button button-pag"><a href="#">1</a></li>
+				<li class="pug-current"><a>2</a></li>
+				<li class="button button-pag"><a href="#">3</a></li>
+				<li class="button button-pag"><a href="#">4</a></li>
 			</ul>
-			<ul class="btn-users">
-				<li class="login-link">Вход</li>
-			</ul>
-	 	</nav>
-	</header>
+			</section>
+		</main>
 
-<!-- MAIN -->
+	<!-- FOOTER -->
+		<footer class="footer">
 
-	<main>
+		<!-- БЛОК С АДРЕСОМ -->
+
+			<p class="footer-contacts">
+				Барбершоп Бородинский<br>
+				Адрес: г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>
+				<a href="contacts.html">Как нас найти?</a><br>
+				Телефон: +7 (495) 666-02-66
+			</p>
+
+		<!-- БЛОК СОЦ СЕТИ -->
+
+			<div class="footer-social">
+				<b>Давай дружить</b>
+				<ul>
+					<li class="footer-social-button"><a href="vk.com">Вконтакте</a></li>
+					<li class="footer-social-button"><a href="fb.com">Фэйсбук</a></li>
+					<li class="footer-social-button"><a href="instafran.com">Инстаграм</a></li>
+				</ul>
+			</div>
+
+		<!-- БЛОК КОПИРАЙТ -->
+
+			<p class="footer-copyright">
+				<b>Разработано</b>
+				<a class="footer-copyright-button" href="https://htmlacademy.ru">HTML Academy</a>
+			</p>
+		</footer>
+
+	<!-- МОДАЛЬНЫЕ ОКНА -->
+
+		<!-- ВХОД В ЛК -->
 		
-	</main>
-
-<!-- FOOTER -->
-
-	<footer>
-		
-	</footer>
-  </body>
+			<section class="modal modal-login">
+	      		<h2>Личный кабинет</h2>
+	      			<p>Введите свой логин и пароль.</p>
+	      			<!-- Здесь будет форма -->
+	      			<span class="modal-close">x</span>
+	    	</section>
+	</body>
 </html>
